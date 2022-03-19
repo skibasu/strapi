@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_portfolio_subcategories",
+  "info": {
+    "displayName": "SUBCATEGORY",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "subcategory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::subcategory.subcategory"
+    }
+  }
+}

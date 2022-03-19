@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_general_settings",
+  "info": {
+    "displayName": "SETTINGS",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "PhoneNumber": {
+      "type": "string",
+      "required": false
+    },
+    "PageLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CopyrightsText": {
+      "type": "string",
+      "default": "ⓒ [DateNow] <Your Name>. All rights reserved."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_portfolio_projects",
+  "info": {
+    "displayName": "PROJECT",
+    "icon": "angle-double-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Pictures": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ratioimg": {
+      "type": "enumeration",
+      "enum": [
+        "squere",
+        "movie",
+        "alternative"
+      ],
+      "required": true,
+      "default": "alternative"
+    }
+  }
+}

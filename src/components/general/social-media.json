@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_general_social_medias",
+  "info": {
+    "displayName": "SOCIAL-MEDIA",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

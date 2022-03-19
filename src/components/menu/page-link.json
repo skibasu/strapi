@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_page_links",
+  "info": {
+    "displayName": "PAGE-LINK",
+    "icon": "pager",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

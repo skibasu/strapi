@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_editor_page_editors",
+  "info": {
+    "displayName": "HOME-HERO-SECTION",
+    "icon": "laptop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Picture": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SubTitle": {
+      "type": "string"
+    }
+  }
+}

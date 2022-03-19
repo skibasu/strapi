@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_settingsy",
+  "info": {
+    "singularName": "theme-settings",
+    "pluralName": "theme-settingsy",
+    "displayName": "Theme Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Settings": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.settings"
+    },
+    "SocialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.social-media"
+    }
+  }
+}
